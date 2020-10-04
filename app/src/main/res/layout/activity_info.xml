@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Descriptions"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:textColor="#5E2525"/>
+
+    <TextView
+        android:id="@+id/tv_producer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:text="Producer"
+        android:textColor="@android:color/primary_text_light"/>
+
+    <TextView
+        android:id="@+id/tv_director"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:text="Director"
+        android:textColor="@android:color/primary_text_light"/>
+
+    <TextView
+        android:id="@+id/tv_dater"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:text="Date"
+        android:textColor="@android:color/primary_text_light"/>
+
+</LinearLayout>
